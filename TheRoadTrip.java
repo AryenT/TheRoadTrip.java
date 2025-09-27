@@ -25,3 +25,4 @@ public class TheRoadTrip {
         System.out.println("You can travel " + distance + " miles.");}
 }
 
+
