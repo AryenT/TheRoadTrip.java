@@ -1,7 +1,6 @@
 public class TheRoadTrip {
     public static void main(String[] args) {
-        // WRITE YOUR CODE HERE
-       double gallons = Double.parseDouble(args[0]);
+        double gallons = Double.parseDouble(args[0]);
         double mpg = Double.parseDouble(args[1]);
         boolean isRaining = Boolean.parseBoolean(args[2]);
         boolean hasMountainPass = Boolean.parseBoolean(args[3]);
@@ -25,3 +24,4 @@ public class TheRoadTrip {
         double distance = gallons * currentmpg;
         System.out.println("You can travel " + distance + " miles.");}
 }
+
